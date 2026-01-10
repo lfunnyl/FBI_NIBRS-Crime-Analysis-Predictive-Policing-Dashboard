@@ -1,3 +1,7 @@
+![BigQuery](https://img.shields.io/badge/Google_BigQuery-%23669DF6.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![SQL](https://img.shields.io/badge/Standard_SQL-CC2927?style=for-the-badge&logo=google-bigquery&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-%234285F4.svg?style=for-the-badge&logo=google-looker-studio&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white)
 # 🚓 FBI NIBRS Crime Analysis & Predictive Policing Dashboard
 
 ![Project Banner](images/fbi1.png
