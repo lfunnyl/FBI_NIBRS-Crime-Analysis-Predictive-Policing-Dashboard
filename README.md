@@ -1,6 +1,7 @@
 # 🚓 FBI NIBRS Crime Analysis & Predictive Policing Dashboard
 
-![Project Banner](buraya_ana_sayfa_goruntusunu_koy.png)
+![Project Banner](<img width="1200" height="895" alt="fbi1" src="https://github.com/user-attachments/assets/904235dd-689b-4285-bb57-109e2fa993a3" />
+)
 
 ## 📌 Proje Hakkında (About the Project)
 Bu proje, Amerika Birleşik Devletleri Federal Soruşturma Bürosu (FBI) tarafından sağlanan **National Incident-Based Reporting System (NIBRS)** verilerini kullanarak kapsamlı bir suç analizi, operasyonel iş yükü takibi ve makine öğrenmesi destekli suç tahminleme sistemi geliştirmeyi amaçlamaktadır.
