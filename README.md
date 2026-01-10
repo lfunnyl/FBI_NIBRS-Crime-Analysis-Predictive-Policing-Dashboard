@@ -1,6 +1,6 @@
 # 🚓 FBI NIBRS Crime Analysis & Predictive Policing Dashboard
 
-![Project Banner](<img width="1200" height="895" alt="fbi1" src="https://github.com/user-attachments/assets/904235dd-689b-4285-bb57-109e2fa993a3" />
+![Project Banner](images/fbi1.png
 )
 
 ## 📌 Proje Hakkında (About the Project)
@@ -29,27 +29,35 @@ Kullanılan veri seti, FBI'ın NIBRS sistemine ait ilişkisel veritabanı yapıs
 
 ### 1. Genel Suç Paneli (Crime Dashboard - Main)
 Genel bakış ekranı, toplam suç sayısı, mülk kaybı ve tutuklama oranlarını içerir. Yıllara göre suç trendleri ve eyalet bazlı ısı haritaları (Heatmap) ile stratejik bir özet sunar.
-![Main Dashboard](buraya_sayfa1_goruntusu.png)
+
 
 ### 2. Zamansal Desen Analizi (Temporal Pattern Analysis)
 Suçların günün hangi saatlerinde ve haftanın hangi günlerinde yoğunlaştığını analiz eder.
 * **Bulgu:** Hırsızlık suçları öğle saatlerinde artarken, saldırı suçları gece saatlerinde zirve yapmaktadır.
-![Temporal Analysis](buraya_sayfa2_goruntusu.png)
+![Temporal Analysis](images/fbi2.png)
 
 ### 3. Taktiksel Saha İstihbaratı (Tactical Field Intelligence)
 Polis departmanlarının performansını ve iş yükünü (Workload Score) ölçen özel bir modüldür.
 * **Action Suggestion:** Departman bazında "Personel Yetersiz", "Kırmızı Alarm" veya "Durum Stabil" gibi otomatik aksiyon önerileri üretir.
-![Tactical Intelligence](buraya_sayfa3_goruntusu.png)
+![Tactical Intelligence](images/fbi3.png)
 
 ### 4. Tahmine Dayalı Analitik (Predictive Policing Analytics)
 Geçmiş veriler kullanılarak eğitilen yapay zeka modeli, bir suç dosyasının çözülüp çözülemeyeceğini tahmin eder.
 * **Model Başarısı:** %76.1 Doğruluk Oranı (Accuracy).
 * **Confusion Matrix:** Modelin True Positive ve True Negative performansları görselleştirilmiştir.
-![Predictive Analytics](buraya_sayfa4_goruntusu.png)
+![Predictive Analytics](images/fbi4.png)
 
 ### 5. Demografik Analiz (Demographic Breakdown)
 Mağdur ve faillerin yaş, cinsiyet ve ırk dağılımlarını inceleyerek suçun sosyolojik boyutunu ortaya koyar. Reşit olmayan (Underage) suç oranlarına özel bir odaklanma yapılmıştır.
-![Demographics](buraya_sayfa5_goruntusu.png)
+
+### 🚨 6. Stratejik Komuta ve Aksiyon Merkezi (Command Action Center)
+Veri analitiğini operasyonel kararlara dönüştüren, departman bazlı karar destek ekranı.
+* **Reçeteli Analitik (Prescriptive Analytics):** Her polis departmanı için İş Yükü (Workload) ve Şiddet Oranı (Violence Ratio) hesaplanarak; "Kırmızı Alarm", "Personel Yetersiz" veya "Vardiya Dengesiz" gibi **otomatik aksiyon önerileri** üretildi.
+* **Risk Skorlama Algoritması:** `(Toplam Suç / Memur Sayısı)` ve `(Şiddet Suçları / Toplam Suç)` formülleriyle oluşturulan dinamik risk matrisi.
+* **Görsel Alarm Sistemi:** Kritik seviyedeki departmanların (Örn: Flint PD) anında fark edilmesi için koşullu biçimlendirme (heatmap) ve renk kodlu uyarı sistemi.
+
+![Predictive Analytics](images/fbi5.png)
+
 
 ## 🧠 Makine Öğrenmesi Metodolojisi
 Projede kullanılan tahmin modeli, aşağıdaki özellikleri (features) kullanarak `is_solved` (suç çözüldü mü?) hedefini tahminler:
@@ -57,6 +65,10 @@ Projede kullanılan tahmin modeli, aşağıdaki özellikleri (features) kullanar
 * Olay Saati ve Günü
 * Mekan Türü (Location ID)
 * Mağdur/Fail Demografisi
+  
 
 ---
-*Bu proje [Günay Özsoy](https://www.linkedin.com/in/gunayozsoy/) tarafından geliştirilmiştir.*
+*Bu proje [İbrahim Sıtkı Aydoğdu](https://www.linkedin.com/in/ibrahim-s%C4%B1tk%C4%B1-aydo%C4%9Fdu-556137341/),
+[Senem Yılmaz](https://www.linkedin.com/in/senem-y%C4%B1lmaz-582a00325/),
+[Argun Cankat Ergün](https://www.linkedin.com/in/argun-cankat-ergun/),
+tarafından geliştirilmiştir.*
